@@ -132,8 +132,8 @@ function draw() {
   ambientMaterial(255, 255, 255)
   //specularMaterial(255, 0, 255)
 
-  pointLight(lightSliderR.value(), lightSliderV.value(), lightSliderB.value(), 0, -windowWidth/2, 1000)
-  pointLight(lightSliderR2.value(), lightSliderV2.value(), lightSliderB2.value(), 0, windowWidth/2, 1000)
+  pointLight(lightSliderR.value(), lightSliderV.value(), lightSliderB.value(), 0, -windowWidth/2, 4000)
+  pointLight(lightSliderR2.value(), lightSliderV2.value(), lightSliderB2.value(), 0, windowWidth/2, 4000)
   // directionalLight(255, 0, 255, x, y, 0)
   
 
