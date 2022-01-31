@@ -31,6 +31,10 @@ function setup() {
   sizeSlider.position(100, 20);
   sizeSlider.addClass("mySliders");
 
+  speedSlider = createSlider(0, 100, 20);
+  speedSlider.position(100, 40);
+  speedSlider.addClass("mySliders");
+
   numberSlider = createSlider(1, 100);
   numberSlider.position(300, 20);
   numberSlider.addClass("mySliders");
@@ -71,12 +75,10 @@ function setup() {
   backgroundB.position(700, 140);
   backgroundB.addClass("mySliders");
 
-  speedSlider = createSlider(0, 100, 20);
-  speedSlider.position(20, windowHeight - 20);
-  speedSlider.addClass("mySliders");
+ 
 
   checkbox = createCheckbox('stroke', false);
-  checkbox.position(200, windowHeight - 30);
+  checkbox.position(20, windowHeight - 30);
   checkbox.changed(checkboxStroke);
 
   textFont(myFont);
