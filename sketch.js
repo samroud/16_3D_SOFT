@@ -36,43 +36,43 @@ function setup() {
   speedSlider.addClass("mySliders");
 
   numberSlider = createSlider(1, 100);
-  numberSlider.position(300, 20);
+  numberSlider.position(100, 60);
   numberSlider.addClass("mySliders");
 
   lightSliderR = createSlider(0, 255,255);
-  lightSliderR.position(500, 20);
+  lightSliderR.position(300, 20);
   lightSliderR.addClass("mySliders");
 
   lightSliderV = createSlider(0, 255,0);
-  lightSliderV.position(500, 40);
+  lightSliderV.position(300, 40);
   lightSliderV.addClass("mySliders");
 
   lightSliderB = createSlider(0, 255,255);
-  lightSliderB.position(500, 60);
+  lightSliderB.position(300, 60);
   lightSliderB.addClass("mySliders");
 
   lightSliderR2 = createSlider(0, 255,255);
-  lightSliderR2.position(700, 20);
+  lightSliderR2.position(500, 20);
   lightSliderR2.addClass("mySliders");
 
   lightSliderV2 = createSlider(0, 255,255);
-  lightSliderV2.position(700, 40);
+  lightSliderV2.position(500, 40);
   lightSliderV2.addClass("mySliders");
 
   lightSliderB2 = createSlider(0, 255,0);
-  lightSliderB2.position(700, 60);
+  lightSliderB2.position(500, 60);
   lightSliderB2.addClass("mySliders");
 
   backgroundR = createSlider(0, 255,255);
-  backgroundR.position(700, 100);
+  backgroundR.position(700, 20);
   backgroundR.addClass("mySliders");
 
   backgroundV = createSlider(0, 255,255);
-  backgroundV.position(700, 120);
+  backgroundV.position(700, 40);
   backgroundV.addClass("mySliders");
 
   backgroundB = createSlider(0, 255,255);
-  backgroundB.position(700, 140);
+  backgroundB.position(700, 60);
   backgroundB.addClass("mySliders");
 
  
